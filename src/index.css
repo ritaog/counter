@@ -12,12 +12,18 @@
 }
 
 .container {
-  background-color: blue;
+  background-color: rgba(0, 255, 255, 0.418);
   height: 200px;
   padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.btn {
+  padding: 5px;
+  color: aliceblue;
+  font-size: 20px;
 }
 
 .increment {

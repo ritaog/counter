@@ -19,11 +19,11 @@ const App = () => {
   return (
     <div className="body">
       <div className="container">
-        <button className="increment" onClick={onChangeIncrement}>
+        <button className="increment btn" onClick={onChangeIncrement}>
           Increment
         </button>
         <span className="counter">{counter}</span>
-        <button className="decrement" onClick={onChangeDecrement}>
+        <button className="decrement btn" onClick={onChangeDecrement}>
           Decrement
         </button>
       </div>
